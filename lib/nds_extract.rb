@@ -1,7 +1,11 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
+require 'pp'
+require 'pry'
 
 def directors_totals(nds)
+  pp(nds)
+  binding.pry
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
